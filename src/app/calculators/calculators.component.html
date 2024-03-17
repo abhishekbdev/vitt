@@ -4,7 +4,7 @@
   </div>
   <h3 class="categoryName">{{name}}</h3>
   <div class="row justify-content-around">
-    <div class="col-5">
+    <div class="col-12 col-lg-5 mb-5">
       <div class="card" id="calCard">
         <div class="card-body">
           <form #calculatorForm="ngForm" (ngChange)="calculate()">
@@ -57,25 +57,25 @@
         </div>
         <div class="card-footer">
           <div class="row justify-content-center">
-           <div class="col-4 text-start">
+           <div class="col-6 col-lg-4 text-start">
               Monthly EMI :
             </div>
             <div class="col-5 text-end">
               ₹ {{result | number:'1.0-0'}} 
             </div>
-            <div class="col-4 text-start">
+            <div class="col-6 col-lg-4 text-start">
               Principal Amount : 
             </div>
             <div class="col-5 text-end">
               ₹ {{principal | number:'1.0-0'  }}
             </div> 
-            <div class="col-4 text-start">
+            <div class="col-6 col-lg-4 text-start">
               Total interest :
             </div>
             <div class="col-5 text-end">
               ₹ {{totalInterest | number:'1.0-0'}}
             </div> 
-            <div class="col-4 text-start">
+            <div class="col-6 col-lg-4 text-start">
               Total Amount : 
             </div>
             <div class="col-5 text-end">
@@ -85,7 +85,7 @@
         </div>
       </div>
     </div>
-    <div class="col-5">
+    <div class="col-12 col-lg-5">
       <div style="display: flex; justify-content: center;height:100%; align-items: center;">
         <canvas  id="MyChart" >{{ chart }}</canvas>
       </div>
