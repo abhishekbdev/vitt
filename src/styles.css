@@ -1,1 +1,7 @@
-/* You can add global styles to this file, and also import other style files */
+.categoryName{
+    color: #ffffffc9;
+    text-decoration: underline;
+    text-decoration-color: #1E1E1E;
+    text-decoration-thickness: 5px;
+    text-underline-offset: 10px; /* Adjust the value as needed */
+  }

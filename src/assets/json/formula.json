@@ -1,0 +1,48 @@
+  [
+    {
+      "name": "EMI Calculator",
+      "logo": "",
+      "subcategories": [
+        { "name": "Home Loan Calculator", "logo": "property.png" },
+        { "name": "Personal Loan Calculator", "logo": "calculate.png" },
+        { "name": "Car Loan Calculator", "logo": "car-loan.png" }
+      ],
+      "show": true
+    },
+    {
+      "name": "Investment",
+      "logo": "",
+      "subcategories": [
+        { "name": "Fixed Deposit Calculator", "logo": "deposit.png" },
+        { "name": "Recurring Deposit Calculator", "logo": "money.png" },
+        { "name": "Mutual Funds Calculator", "logo": "growth.png" }
+      ],
+      "show": false
+    },
+    {
+      "name": "Retirement Planning",
+      "logo": "",
+      "subcategories": [
+        { "name": "Retirement Calculator", "logo": "calculator.png" },
+        { "name": "FIRE amount Calculator", "logo": "calories-calculator.png" }
+      ],
+      "show": false
+    },
+    {
+      "name": "Tax Calculator",
+      "logo": "",
+      "subcategories": [
+        { "name": "GST Calculator", "logo": "tax.png" }
+      ],
+      "show": false
+    },
+    {
+      "name": "Inflation Calculator",
+      "logo": "",
+      "subcategories": [
+        { "name": "Product Price Calculator", "logo": "money.png" }
+      ],
+      "show": false
+    }
+  ]
+  

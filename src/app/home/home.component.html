@@ -1,0 +1,20 @@
+<div class="container-fluid text-center" id="categoryContainer" *ngFor="let item of formulaData">
+  <h3 class="categoryName">{{item.name}}</h3>
+  <div class="card" id="subcategoryContainer" >
+    <div class="row justify-content-center" *ngIf="item.show; else elseBlock">
+      <div class="col-3" *ngFor="let calc of item.subcategories">
+        <div class="card text-center" id="calculatorCard" (click)="navigateToCalculator(calc.name)">
+          <div class="img-comtainer">
+            <img class="img-fluid" src="assets/{{ calc.logo }}" alt="{{ calc.name }} Logo">
+          </div>
+          <div class="card-content">
+            <h5>{{ calc.name }}</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+    <ng-template #elseBlock>
+      <h1 class="mt-5">Coming Soon...</h1>
+    </ng-template>
+  </div>
+</div>
